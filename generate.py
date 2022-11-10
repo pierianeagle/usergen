@@ -1,5 +1,6 @@
 import os
 import random
+
 import pandas as pd
 
 adjectives = pd.read_csv(os.path.join(os.path.dirname(__file__), 'words', 'adjectives.txt'), sep='\n', header=None, names=['adjectives'], squeeze=True)
